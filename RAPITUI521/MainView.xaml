@@ -1,0 +1,15 @@
+﻿<Window x:Class="RAPITUI521.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RAPITUI521"
+             mc:Ignorable="d" 
+             Height="150" Width="300"
+             Title="Приложение для изменения типов стен">
+    <StackPanel>
+        <Label Content="Изменить тип стен" Margin="5"/>
+        <ComboBox ItemsSource="{Binding WallSystems}" SelectedValue="{Binding SelectedWallSystem}" DisplayMemberPath="Name" Margin="5"/>
+        <Button Content="Применить" Command="{Binding SaveCommand}"/>
+    </StackPanel>
+</Window>

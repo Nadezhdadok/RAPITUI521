@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Assembly>"C:\APPLICATIONS\RevitAPITraining\RAPITUI521.dll"</Assembly>
+		<AddInId>3C8013E5-2B62-4E49-B996-FCC671C40FED</AddInId>
+		<FullClassName>RAPITUI521.Main</FullClassName>
+		<VendorId>ADSK</VendorId>
+		<Text>Изменить тип стен</Text>
+	</AddIn>
+</RevitAddIns>
